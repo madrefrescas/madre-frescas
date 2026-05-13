@@ -52,7 +52,7 @@ export const blogPosts: BlogPost[] = [
     slug: "aguas-frescas-with-less-sugar",
     title: "Aguas Frescas With Less Sugar, More Fresh Flavor",
     excerpt:
-      "How Madre Frescas approaches hibiscus agua fresca, horchata, and naturally sweetened drinks for Austin heat and everyday gatherings.",
+      "How Madre Frescas approaches agua fresca flavors like hibiscus and horchata for Austin heat and everyday gatherings.",
     date: "2026-05-12",
     readTime: "3 min read",
     category: "Aguas Frescas",
@@ -77,7 +77,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "Lighter sweetener options",
         body:
-          "We build our drink menu with lighter sweetener options like stevia or monk fruit where they make sense. The goal is a better-for-you agua fresca that still feels generous, colorful, and worth ordering.",
+          "We build our drink menu with natural sugar alternatives where they make sense. The goal is a lighter agua fresca that still feels generous, colorful, and worth ordering.",
       },
     ],
   },
@@ -85,12 +85,12 @@ export const blogPosts: BlogPost[] = [
     slug: "mexican-southern-bakery-austin",
     title: "The Story Behind a Mexican-Southern Bakery in Austin",
     excerpt:
-      "Madre Frescas brings Mexican aguas frescas and Southern Kentucky baking together through sourdough, horchata, and better-for-you sweets.",
+      "Madre Frescas brings Mexican aguas frescas and Southern Kentucky baking together through sourdough, coffee, and sweets.",
     date: "2026-05-12",
     readTime: "4 min read",
     category: "Brand Story",
     image: "/brand/blog/mexican-southern-bakery.png",
-    imageAlt: "Sourdough, aguas frescas, horchata, and pastries on a table",
+    imageAlt: "Sourdough, aguas frescas, coffee, and pastries on a table",
     keywords: [
       "Mexican bakery Austin",
       "Southern bakery Austin",
@@ -100,7 +100,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "Two traditions at one table",
         body:
-          "Madre Frescas comes from two food memories meeting in one place: Mexican aguas frescas, canela, horchata, and bright fruit on one side; Southern Kentucky baking, slow bread, and home comfort on the other.",
+          "Madre Frescas comes from two food memories meeting in one place: Mexican aguas frescas, canela, and bright fruit on one side; Southern Kentucky baking, fresh coffee, and home comfort on the other.",
       },
       {
         heading: "Why Madre Frescas",

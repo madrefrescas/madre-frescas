@@ -3,9 +3,9 @@ import "./globals.css";
 
 const siteUrl = "https://madrefrescas.com";
 const title =
-  "Madre Frescas | Austin Sourdough, Aguas Frescas & Healthy Sweets";
+  "Madre Frescas | Austin Sourdough, Aguas Frescas, Coffee & Sweets";
 const description =
-  "Madre Frescas brings Mexican freshness and Southern baking tradition to Austin with handcrafted sourdough, naturally sweetened aguas frescas, horchata, and healthier sweets.";
+  "Madre Frescas brings Mexican freshness and Southern baking tradition to Austin with handcrafted sourdough, naturally sweetened aguas frescas, premium coffee drinks, and sweets.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -20,7 +20,8 @@ export const metadata: Metadata = {
     "sourdough bread Austin",
     "aguas frescas Austin",
     "horchata Austin",
-    "healthy sweets Austin",
+    "sweets Austin",
+    "coffee drinks Austin",
     "naturally sweetened drinks Austin",
     "Mexican bakery Austin",
     "Southern bakery Austin",
