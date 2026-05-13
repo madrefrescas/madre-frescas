@@ -8,7 +8,7 @@ import { blogPosts } from "@/data/blog";
 export const metadata: Metadata = {
   title: "Blog | Madre Frescas",
   description:
-    "Read Madre Frescas stories and guides about Austin sourdough bread, aguas frescas, horchata, healthier sweets, and Mexican-Southern bakery catering.",
+    "Read Madre Frescas stories and guides about Austin sourdough bread, aguas frescas, coffee, sweets, and Mexican-Southern bakery catering.",
   alternates: {
     canonical: "https://madrefrescas.com/blog",
   },
@@ -24,7 +24,7 @@ export default function BlogPage() {
           <h1>Sourdough, frescas, and Austin food stories.</h1>
           <p>
             Guides and stories about naturally leavened bread, lighter aguas
-            frescas, horchata, Mexican-Southern baking, and catering fresh food
+            frescas, coffee, Mexican-Southern baking, and catering fresh food
             in Austin.
           </p>
         </section>

@@ -10,7 +10,7 @@ const menu = [
     category: "Organic Sourdough Bread",
     name: "Classic Sourdough Loaf",
     tag: "Naturally leavened",
-    price: "$9",
+    price: "$12",
     available: true,
     description:
       "Organic unbleached flour, sourdough starter, blistered crust, and a tender everyday crumb.",
@@ -19,161 +19,127 @@ const menu = [
     category: "Organic Sourdough Bread",
     name: "Jalapeno Cheddar Loaf",
     tag: "Savory loaf",
-    price: "$13",
+    price: "$16",
     available: false,
     description:
       "Slow-fermented sourdough with jalapeno heat and cheddar folded through the loaf.",
   },
   {
     category: "Organic Sourdough Bread",
-    name: "Cheddar & Onion Loaf",
-    tag: "Savory loaf",
-    price: "$13",
-    available: false,
-    description:
-      "A comfort-forward sourdough loaf with cheddar and onion for sandwiches, soups, and boards.",
-  },
-  {
-    category: "Organic Sourdough Bread",
-    name: "Scallion & Chilli Crisp Loaf",
-    tag: "Savory loaf",
-    price: "$12",
-    available: false,
-    description:
-      "Scallion sourdough with a chile crisp kick and a rich, savory finish.",
-  },
-  {
-    category: "Organic Sourdough Bread",
-    name: "Chocolate Chip Loaf",
+    name: "Dark Chocolate Chip Loaf",
     tag: "Sweet loaf",
-    price: "$12",
+    price: "$15",
     available: false,
     description:
-      "A softer sourdough loaf with chocolate chips for breakfast slices and sweet toast.",
-  },
-  {
-    category: "Organic Sourdough Bread",
-    name: "Butter Cinnamon Sugar Swirl",
-    tag: "Sweet loaf",
-    price: "$12",
-    available: false,
-    description:
-      "A buttery cinnamon sugar swirl loaf made for weekend mornings and gifting.",
+      "A softer sourdough loaf with dark chocolate chips for breakfast slices and sweet toast.",
   },
   {
     category: "Aguas Frescas",
     name: "Horchata",
     tag: "Naturally sweetened",
-    price: "$6",
+    price: "$8",
     available: true,
     description:
-      "Creamy cinnamon horchata made with real flavor and sweetened with stevia.",
+      "Creamy cinnamon horchata made with real flavor and natural sugar alternatives.",
   },
   {
     category: "Aguas Frescas",
     name: "Hibiscus Agua Fresca",
     tag: "Naturally sweetened",
-    price: "$6",
+    price: "$8",
     available: true,
     description:
       "Ruby hibiscus fresca with a bright, floral finish and a lighter sweetener profile.",
   },
   {
+    category: "Aguas Frescas",
+    name: "Lemonade Agua Fresca",
+    tag: "Naturally sweetened",
+    price: "$8",
+    available: false,
+    description:
+      "Fresh lemonade agua fresca with bright citrus flavor and natural sugar alternatives.",
+  },
+  {
     category: "Sourdough Bagels",
     name: "Original Bagels",
-    tag: "4 for $9 / 6 for $12",
-    price: "$9+",
+    tag: "4 for $12 / 6 for $16",
+    price: "$12+",
     available: false,
     description:
       "Sourdough bagels with a chewy bite and simple classic flavor.",
   },
   {
     category: "Sourdough Bagels",
-    name: "Everything Bagels",
-    tag: "4 for $10 / 6 for $14",
-    price: "$10+",
+    name: "Cinnamon Bagels",
+    tag: "4 for $13 / 6 for $18",
+    price: "$13+",
     available: false,
     description:
-      "Sourdough bagels with everything seasoning for a savory market staple.",
-  },
-  {
-    category: "Sourdough Bagels",
-    name: "Sesame Bagels",
-    tag: "4 for $10 / 6 for $14",
-    price: "$10+",
-    available: false,
-    description:
-      "Sourdough bagels topped with sesame for a nutty, classic finish.",
-  },
-  {
-    category: "Sourdough Bagels",
-    name: "Cinnamon Sugar Bagels",
-    tag: "4 for $10 / 6 for $14",
-    price: "$10+",
-    available: false,
-    description:
-      "A sweeter sourdough bagel option with cinnamon sugar comfort.",
+      "A warm cinnamon sourdough bagel option with cozy bakery flavor.",
   },
   {
     category: "Sourdough Bagels",
     name: "Jalapeno Cheddar Bagels",
-    tag: "4 for $12 / 6 for $16",
-    price: "$12+",
+    tag: "4 for $15 / 6 for $21",
+    price: "$15+",
     available: false,
     description:
       "Cheddar-rich sourdough bagels with jalapeno heat.",
   },
   {
-    category: "Sweet Treats",
-    name: "Cinnamon Rolls",
-    tag: "4 for $14",
-    price: "$14",
-    available: false,
-    description: "Sourdough cinnamon rolls with cream cheese frosting.",
-  },
-  {
-    category: "Sweet Treats",
-    name: "Chocolate Chip Cookies",
-    tag: "6 for $10",
-    price: "$10",
+    category: "Healthy Sweet Treats",
+    name: "Sourdough Cinnamon Rolls",
+    tag: "4 for $18",
+    price: "$18",
     available: false,
     description:
-      "Classic chocolate chip cookies with a Madre Frescas bakery finish.",
+      "Sourdough cinnamon rolls with homemade lighter cream cheese frosting.",
   },
   {
-    category: "Sweet Treats",
-    name: "Chocolate Chip-Toffee Cookies",
-    tag: "6 for $10",
-    price: "$10",
+    category: "Healthy Sweet Treats",
+    name: "Dark Chocolate Oat Bites",
+    tag: "6 for $15",
+    price: "$15",
     available: false,
-    description: "Chocolate chip cookies with buttery toffee notes.",
+    description:
+      "Soft oat bites with dark chocolate, cinnamon, and a lighter naturally sweet finish.",
   },
   {
-    category: "Sourdough Scones",
-    name: "Blueberry Lemon Scones",
-    tag: "4 for $12",
+    category: "Healthy Sweet Treats",
+    name: "Herb & Seed Sourdough Crackers",
+    tag: "Bag for $12",
     price: "$12",
     available: false,
     description:
-      "Bright blueberry lemon sourdough scones for brunch boxes and market pickups.",
+      "Crisp sourdough crackers with olive oil, rosemary, seeds, and a lighter savory finish.",
   },
   {
-    category: "Sourdough Scones",
-    name: "Espresso Chocolate Scones",
-    tag: "4 for $12",
-    price: "$12",
+    category: "Coffee",
+    name: "Horchata Espresso",
+    tag: "Iced coffee",
+    price: "$8",
     available: false,
     description:
-      "Espresso and chocolate folded into tender sourdough scones.",
+      "Creamy horchata poured with espresso for a rich cinnamon coffee drink.",
   },
   {
-    category: "Sourdough Scones",
-    name: "Cheddar & Chives Scones",
-    tag: "4 for $12",
-    price: "$12",
+    category: "Coffee",
+    name: "Iced Coffee",
+    tag: "Classic coffee",
+    price: "$6",
     available: false,
     description:
-      "Savory cheddar and chive sourdough scones for breakfast boxes and catering.",
+      "Smooth iced coffee made for pairing with sourdough and sweets.",
+  },
+  {
+    category: "Coffee",
+    name: "Hot Chocolate Coffee",
+    tag: "Chocolate coffee",
+    price: "$7",
+    available: false,
+    description:
+      "A warm chocolate coffee drink with a cozy bakery-style finish.",
   },
 ];
 
@@ -184,11 +150,11 @@ const faqs = [
   ],
   [
     "Are the aguas frescas sugar free?",
-    "Our goal is naturally sweet, lighter drinks. Most flavors are made with fruit, spices, herbs, and alternatives like stevia or monk fruit instead of refined sugar.",
+    "Our goal is naturally sweet, lighter drinks. Most flavors are made with fruit, spices, herbs, and natural sugar alternatives instead of refined sugar.",
   ],
   [
     "Can I order sourdough and drinks together?",
-    "Yes. The site is set up around preorder bundles so customers can reserve bread, aguas frescas, horchata, and sweets for pickup or event catering.",
+    "Yes. The site is set up around preorder bundles so customers can reserve bread, aguas frescas, sweets, and coffee drinks for pickup or event catering.",
   ],
   [
     "Do you offer catering?",
@@ -200,7 +166,7 @@ const faqs = [
   ],
   [
     "What ingredients do you use?",
-    "Our menu focuses on real ingredients, sourdough starter, organic unbleached flour where possible, fresh fruit, spices, herbs, and lighter sweetener options like stevia for select aguas frescas.",
+    "Our menu focuses on real ingredients, sourdough starter, organic unbleached flour where possible, fresh fruit, spices, herbs, and natural sugar alternatives for select aguas frescas.",
   ],
 ];
 
@@ -220,7 +186,7 @@ const jsonLd = {
   },
   areaServed: "Austin, Texas",
   description:
-    "Austin sourdough bakery and aguas frescas brand making naturally leavened bread, naturally sweetened horchata, healthy sweets, and Mexican-Southern comfort food.",
+    "Austin sourdough bakery and aguas frescas brand making naturally leavened bread, naturally sweetened drinks, sweets, coffee, and Mexican-Southern comfort food.",
   makesOffer: menu.map((item) => ({
     "@type": "Offer",
     itemOffered: {
@@ -249,7 +215,7 @@ export default function Home() {
         <section className="hero">
           <Image
             src="/brand/photos/madre-frescas-hero.png"
-            alt="Sourdough bread, horchata, and aguas frescas on a table"
+            alt="Sourdough bread and aguas frescas on a table"
             fill
             className="hero-image"
             priority
@@ -260,9 +226,9 @@ export default function Home() {
             <p className="eyebrow">Austin sourdough bakery + aguas frescas</p>
             <h1>Mexican freshness meets Southern baking.</h1>
             <p>
-              Handcrafted sourdough, naturally sweetened horchata, colorful
-              aguas frescas, and healthier sweets made for Austin mornings,
-              markets, and gatherings.
+              Handcrafted sourdough, naturally sweetened aguas frescas, sweets,
+              and coffee drinks made for Austin mornings, markets, and
+              gatherings.
             </p>
             <div className="hero-actions">
               <a className="button primary" href="#preorder">
@@ -294,14 +260,13 @@ export default function Home() {
             <p>
               Madre Frescas was born from Mexican aguas frescas and Southern
               Kentucky baking meeting in Austin. One side brings bright fruit,
-              canela, horchata, and fresh drinks. The other brings patient
+              canela, and fresh drinks. The other brings patient
               dough, home-baked comfort, and the skill of feeding people well.
             </p>
             <p>
               “Madre” honors the sourdough mother that gives every loaf life.
               “Fresca” carries the fresh drink side of the brand: colorful,
-              lighter, and made with intention. Together, it gives customers an
-              easy story to remember and a specific reason to search.
+              lighter, and made with intention.
             </p>
           </div>
         </section>
@@ -321,10 +286,10 @@ export default function Home() {
               </p>
             </article>
             <article>
-              <h3>Aguas frescas + horchata</h3>
+              <h3>Aguas frescas</h3>
               <p>
-                Refreshing aguas frescas and creamy horchata made for Austin
-                heat, brunch tables, office orders, events, and weekend pickup.
+                Refreshing aguas frescas made for Austin heat, brunch tables,
+                office orders, events, and weekend pickup.
               </p>
             </article>
             <article>
@@ -345,8 +310,8 @@ export default function Home() {
             <p>
               Madre Frescas creates Mexican-Southern catering for office
               breakfasts, private events, wellness gatherings, markets, and
-              celebrations with sourdough boards, fresh horchata, hibiscus agua
-              fresca, pastry boxes, and better-for-you sweets.
+              celebrations with sourdough boards, fresh aguas frescas, pastry
+              boxes, coffee drinks, and sweets.
             </p>
           </div>
           <div className="bundle-row">
@@ -362,10 +327,10 @@ export default function Home() {
         <section className="section blog-preview-section">
           <div className="section-heading">
             <p className="eyebrow">From the blog</p>
-            <h2>Learn about sourdough, frescas, and better-for-you baking.</h2>
+            <h2>Learn about sourdough, frescas, coffee, and baking.</h2>
             <p>
               Read Madre Frescas guides on naturally leavened bread, aguas
-              frescas, horchata, and fresh Mexican-Southern food in Austin.
+              frescas, coffee, and fresh Mexican-Southern food in Austin.
             </p>
           </div>
           <div className="blog-grid">
