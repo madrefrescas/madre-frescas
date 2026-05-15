@@ -101,7 +101,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           <h1>{post.title}</h1>
           <p className="article-excerpt">{post.excerpt}</p>
           <div className="article-meta">
-            <span>{new Date(post.date).toLocaleDateString("en-US", {
+            <span>{new Date(`${post.date}T12:00:00`).toLocaleDateString("en-US", {
               month: "long",
               day: "numeric",
               year: "numeric",
